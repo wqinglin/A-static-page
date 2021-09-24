@@ -1,0 +1,105 @@
+body{
+	box-sizing:border-box;/*盒子宽里包含 padding和border*/
+}
+/*登录头部*/
+.logo-wrap{
+	width:100%;
+	height: 96px;
+	background: #fff;
+	padding:15px 0 0 60px;
+}
+.login-body{
+	width:100%;
+	height: 588px;
+	background: url(../images/login-bg.jpg) no-repeat center center;
+}
+/* .logion-con{
+	width:1000px;
+	margin:0 auto;
+} */
+
+.box{
+	margin-top:40px;
+	width:100%;
+	height: 400px;
+	background: #fff;
+	padding:15px 25px;
+	
+}
+
+/* tab 选项卡的样式排版 */
+.title li{
+	float:left;
+	width:150px;
+	height: 30px;
+	text-align: center;
+	font:26px/26px 微软雅黑;
+	margin: 12px 0 0;
+}
+.title li:nth-of-type(1){
+	border-right: 1px solid #ccc;
+}
+.title li a{
+	color:#333;
+}
+.title li a:hover{
+	color:#f60;
+	text-decoration: none;
+}
+
+.login-form{
+	margin-top:30px;
+}
+.login-form div{
+	width:300px;
+	height: 50px;
+	border:1px solid #ccc;
+	margin-bottom:30px;
+}
+.login-form input{
+	width:280px;
+	border:0;
+	padding:12px 25px 0;
+}
+
+.login-form .btn{
+	width:100%;
+	height: 48px;
+	border:0;
+	background:#f60;
+	color:#fff;
+}
+.qcode{
+	margin-top: 30px;
+	text-align: center;
+}
+.qcode img{
+	width: 100%;
+}
+p.msg{
+	width: 100%;
+	height: 30px;
+	margin-top: 18px;
+	/* background-color: rgb(129, 129, 138); */
+	z-index: 99;
+}
+.red{
+	color:#f00;
+}
+.green{
+	color:#0f0;
+}
+.msg{
+	font-size:12px;
+}
+.tab-content img{
+    position:absolute;
+    left: 100px;
+    top:150px;
+}
+.cons{
+	display: none;
+}
+.show{
+	display:block;
+}

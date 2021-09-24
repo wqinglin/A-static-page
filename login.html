@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description"
+		content="小米官网直营小米公司旗下所有产品，包括小米手机系列小米10 Pro 、小米9、小米MIX Alpha，Redmi 红米系列Redmi Note 9、Redmi K30，小米电视、笔记本、米家智能家居等，同时提供小米客户服务及售后支持." />
+	<meta name="keywords" content="小米,redmi,小米10,Redmi Note 9,小米MIX Alpha,小米商城" />
+	<title>登录页面</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/login.css">
+	<!-- 1. 引入boostrap.css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script ></script>
+</head>
+
+<body>
+	<!-- logo start -->
+	<div class="logo-wrap">
+		<a href="./index.html"><img src="images/login-logo.jpg" alt=""></a>
+	</div>
+	<!-- logo end -->
+	<!-- login-body start-->
+	<div class="login-body">
+		<!-- login-body100%背景图-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8"></div>
+				<div class="col-md-4">
+					<div class="box">
+						<ul class="title clearfix">
+							<li class="active"><a>账号登录</a></li>
+							<li><a>扫描登录</a></li>
+						</ul>
+						<ul class="tab-content">
+							<li id="account" class="cons show">
+								<form class="login-form">
+									<div>
+										<input type="text" name="user" id="user" placeholder="请输入用户名"><p
+											class="msg"></p><br>
+									</div>
+									<div> <input type="password" name="pwd" id="pwd" placeholder="请输入密码"><p
+											class="msg"></p><br></div>
+									<div><button class="btn">登录</button></div>
+								</form>
+							</li>
+							<li id="qcode" class="tab-pane cons">
+								<img src="images/qcode.jpg" alt="">
+							</li> 
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- login-body end-->
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="./js/login.js"></script>
+</body>
+
+</html>
